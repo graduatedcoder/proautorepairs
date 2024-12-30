@@ -15,21 +15,21 @@
         <!-- Centered Navigation Links -->
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="/">HOME</a>
+            <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" href="{{URL('/')}}">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">SERVICES</a>
+            <a class="nav-link {{ request()->is('services') ? 'active' : '' }}" href="{{URL('/services')}}">SERVICES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT US</a>
+            <a class="nav-link {{ request()->is('about-us') ? 'active' : '' }}" href="{{URL('/about-us')}}">ABOUT US</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT US</a>
+            <a class="nav-link {{ request()->is('contact-us') ? 'active' : '' }}" href="{{URL('/contact-us')}}">CONTACT US</a>
           </li>
         </ul>
-        
+        <a href="tel:+64210392541" class=""><i class="fa fa-phone text-danger me-2"></i><span class="">+64210392541</span></a>
         <!-- Right-aligned Button -->
-        <a href="#" class="btn btn-book">Book Appointment</a>
+        <a href="#" class="btn btn-book ms-5">Book Appointment</a>
       </div>
     </div>
   </nav>
