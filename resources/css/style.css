@@ -76,6 +76,9 @@
     h1 {
         font-size: 1.75rem !important;
       }
+      h2 {
+        font-size: 1.25rem !important;
+      }
     .hero-text {
       padding: 2rem !important; /* Adjust padding for mobile */
     }
@@ -97,6 +100,9 @@
 
   h1 {
     font-size: 2.5rem !important;
+  }
+  h2 {
+    font-size: 2rem !important;
   }
   .card {
     position: relative;
@@ -226,3 +232,51 @@ html{
   background-color: #fff !important;
   color: #000 !important;
 }
+
+@keyframes zoomIn {
+    from {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes zoomOut {
+    from {
+      transform: scale(1);
+      opacity: 1;
+    }
+    to {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+  }
+  
+  /* Apply zoom animations to modal */
+  .modal.fade .modal-dialog {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    animation: zoomOut 0.3s ease forwards;
+  }
+  
+  .modal.fade.show .modal-dialog {
+    animation: zoomIn 0.3s ease forwards;
+  }
+
+  textarea.form-control {
+    border-color: #6b7280;
+    border-width: 1px;
+    border-radius: 0;
+    height: 100px;
+  }
+
+   input:focus, textarea:focus, select:focus {
+    border-color: var(--site-color-red) !important;
+    --tw-ring-shadow::var(--site-color-red) !important;
+   }
+
+   .services_card {
+    background: var(--site-color-grey) !important;
+   }

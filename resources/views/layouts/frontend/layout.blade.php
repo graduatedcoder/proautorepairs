@@ -62,20 +62,24 @@
                     </div>
                     <!-- Products & Services Section -->
                     <div class="col-lg-3 col-md-3 col-6">
-                        <h6 class="mb-2">Our Services</h6>
+                        <h5 class="mb-2">Our Services</h5>
                         <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Car Servicing</a></li>
-                        <li><a href="#" class="text-white">Brakes & Tyres</a></li>
-                        <li><a href="#" class="text-white">Engine Diagnostics</a></li>
-                        </ul>
+                        <li><a href="{{url('/services#engine_repair_service')}}" class="text-white">Engine Repair</a></li>
+                        <li><a href="{{url('/services#brake_service')}}" class="text-white">Brakes Services</a></li>
+                        <li><a href="{{url('/services#oil_change_service')}}" class="text-white">Oil Change</a></li>
+                        <!-- <li><a href="{{url('/services#tire_service')}}" class="text-white">Tire Services</a></li>
+                        <li><a href="{{url('/services#battery_replacement_service')}}" class="text-white">Battery Replacement</a></li>
+                        <li><a href="{{url('/services#suspension_service')}}" class="text-white">Suspension and Alignment</a></li>-->
+                          
+                    </ul> 
                     </div>
                     <!-- Finance Section -->
                     <div class="col-lg-3 col-md-3 col-12">
                         <h5 class="my-2">Make an Appointment</h5>
-                        <p>Schedule your car servicing with ease through our reliable appointment options.</p>
+                        <p class="mt-1">Schedule your car servicing with ease through our reliable appointment options.</p>
                         <div class="mt-3">
-                            <a href="#" class="text-white me-3" style="font-size:14px;">Terms and Conditions</a><br>
-                            <a href="#" class="text-white" style="font-size:14px;">Privacy Policy</a>
+                            <a href="#" class="text-white me-3" style="font-size:1rem;">Terms and Conditions</a><br>
+                            <a href="#" class="text-white" style="font-size:1rem;">Privacy Policy</a>
                         </div>
                     </div>
                     </div>

@@ -13,68 +13,68 @@
           <!-- <h4 class="text-danger">Business Hours</h4> -->
           <p class=" mb-0"><strong>Monday - Friday:</strong> 08:00 AM - 05:30 PM</p>
           <p class="mb-0"><strong>Saturday:</strong> 08:00 AM - 12:00 PM</p>
-          <p><strong>CLOSED SUNDAY</strong></p>
+          <p><strong>Sunday & Public Holidays Closed</strong></p>
         </div>
       </div>
     </div>
   </div>
 </section>
 <section class="text-center stripped-line-call py-3">
-    <div class="container">
-        <p class="text-striped-line-p">
-          Contact us for your warrant of fitness,car service & repairs,new & used tyres  
-        </p>
-    </div>
+  <div class="container">
+    <p class="text-striped-line-p">
+      Contact us for your warrant of fitness,car service & repairs,new & used tyres
+    </p>
+  </div>
 </section>
 <section class="services-section ">
-    <div class="container py-4">
-        <h1 class="fw-bold mb-3 text-center">Our Most Popular Services</h1>
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="card my-3">
-                    <div class="card-img" style="background-image: url('https://www.pitstop.co.nz/photos/shares/Service-Tiles-2023/Car-Service-514x416.png');">
-                        <div class="card-overlay d-flex flex-column align-items-center justify-content-between">
-                            <div class="me-2">
-                                <h4 class="fw-bold pb-2">Car Servicing</h4>
-                                <p class="fw-light">Comprehensive vehicle servicing tailored to meet your car's specific needs. From routine maintenance to detailed inspections, we ensure your vehicle runs smoothly and efficiently.</p>
-                            </div>
-                            <a href="#book" class="btn btn-danger p-2 mt-2">Book Now</a>
-                        </div>
-                    </div>
-                </div>
+  <div class="container py-4">
+    <h1 class="fw-bold mb-3 text-center">Our Most Popular Services</h1>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card my-3">
+          <div class="card-img" style="background-image: url('public/uploads/images/car-ingine-repair.jpg');">
+            <div class="card-overlay d-flex flex-column align-items-center justify-content-between">
+              <div class="me-2">
+                <h4 class="fw-bold pb-2">Engine Repair</h4>
+                <p class="fw-light mt-3">Our experts provide comprehensive engine diagnostics to keep your vehicle running smoothly. Trust us for regular engine maintenance to keep your vehicle at its peak</p>
+              </div>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#bookAppointmentModal" class="btn btn-danger p-2 mt-2">Book Now</a>
             </div>
-            <div class="col-sm-4">
-                <div class="card my-3">
-                    <div class="card-img" style="background-image: url('https://www.pitstop.co.nz/photos/shares/Service-Tiles-2023/Vehicel-Brakes-514x416.png');">
-                        <div class="card-overlay d-flex flex-column justify-content-between align-items-center">
-                            <div class="me-2">
-                                <h4 class="fw-bold pb-2">Brakes & Tyres</h4>
-                                <p class="fw-light">Enhance safety and performance with professional brake and tyre services. We provide thorough brake inspections and high-quality tyre replacements to ensure reliable stopping smooth driving.</p>
-                            </div>
-                            <a href="#book" class="btn btn-danger p-2 mt-2">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card my-3">
-                    <div class="card-img" style="background-image: url('https://www.pitstop.co.nz/photos/shares/Service-Tiles-2023/Car-Service-514x416.png');">
-                        <div class="card-overlay d-flex flex-column justify-content-between align-items-center">
-                            <div class="me-2">
-                                <h4 class="fw-bold pb-2">Engine Diagnostics</h4>
-                                <p class="fw-light">Accurately diagnose and resolve engine issues for improved performance and reliability. Our advanced tools and skilled technicians ensure your engine runs efficiently and smoothly.</p>
-                            </div>
-                            <a href="#book" class="btn btn-danger p-2 mt-2">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <div class="row justify-center">
-            <a href="{{URL('/services')}}" class="text-danger text-center" style="text-decoration:underline;width:fit-content;"> View All Services <i class="fa fa-arrow-right mt-1"></i></a>
+      </div>
+      <div class="col-sm-4">
+        <div class="card my-3">
+          <div class="card-img" style="background-image: url('public/uploads/images/car-brake-service.jpg');">
+            <div class="card-overlay d-flex flex-column justify-content-between align-items-center">
+              <div class="me-2">
+                <h4 class="fw-bold pb-2">Brake Services</h4>
+                <p class="fw-light mt-3">Enhance safety and performance with professional brake and tyre services. We use high-quality brake components and fluids to ensure reliability and durability in all driving conditions.</p>
+              </div>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#bookAppointmentModal" class="btn btn-danger p-2 mt-2">Book Now</a>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card my-3">
+          <div class="card-img" style="background-image: url('public/uploads/images/car-oil-change.jpg');">
+            <div class="card-overlay d-flex flex-column justify-content-between align-items-center">
+              <div class="me-2">
+                <h4 class="fw-bold pb-2">Oil Change</h4>
+                <p class="fw-light mt-3">Regular oil changes are essential for your engine’s longevity and performance. We use premium-quality oils, ensuring proper lubrication and reduced wear on engine parts.</p>
+              </div>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#bookAppointmentModal" class="btn btn-danger p-2 mt-2">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
+    <div class="row justify-center">
+      <a href="{{URL('/services')}}" class="text-danger text-center" style="text-decoration:underline;width:fit-content;"> View All Services <i class="fa fa-arrow-right mt-1"></i></a>
+    </div>
+  </div>
+
 </section>
 <section class="about-section py-5">
   <div class="container">
@@ -90,7 +90,7 @@
           Pro Auto Repairs is dedicated to providing high-quality automotive services to ensure your vehicle runs at its best. With a passion for excellence and customer satisfaction, our skilled team of mechanics specializes in a range of services, including engine diagnostics, brake repairs, tyre replacements, and general maintenance.
         </p>
         <p>
-          At Pro Auto Repairs, we take pride in delivering trustworthy and efficient services tailored to your needs. 
+          At Pro Auto Repairs, we take pride in delivering trustworthy and efficient services tailored to your needs.
           <!-- Whether it’s routine maintenance or complex repairs, you can rely on us for professional expertise and friendly service. -->
         </p>
       </div>
@@ -109,7 +109,7 @@
         </p>
         <ul class="list-unstyled mt-4">
           <li class="mb-3">
-            <i class="fa fa-phone text-danger me-3"></i> +64210392541
+            <i class="fa fa-phone text-danger me-3"></i> +64021860001
           </li>
           <li class="mb-3">
             <i class="fas fa-envelope text-danger me-3"></i> info@proautorepairs.net

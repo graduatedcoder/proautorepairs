@@ -14,6 +14,10 @@ Route::get('/about-us', function () {
     return view('frontend.about');
 });
 
+Route::get('/services', function () {
+    return view('frontend.services');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

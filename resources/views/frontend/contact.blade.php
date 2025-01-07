@@ -62,7 +62,7 @@
                     </p>
                     <ul class="list-unstyled mt-4">
                     <li class="mb-3">
-                        <i class="fa fa-phone text-danger me-3"></i> +64210392541
+                        <i class="fa fa-phone text-danger me-3"></i> +64021860001
                     </li>
                     <li class="mb-3">
                         <i class="fas fa-envelope text-danger me-3"></i> info@proautorepairs.net

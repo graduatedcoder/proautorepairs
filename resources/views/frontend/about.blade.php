@@ -95,15 +95,15 @@
 @section('content')
 <!-- Hero Section -->
 <section class="hero">
-    <div class="bg-dark-transparent-bg p-4 rounded">
-      <h1>About Pro Auto Repairs</h1>
-      <p class="lead mb-4">
-            Pro Auto Repairs is your one-stop destination for all your vehicle repair and maintenance needs.
-            
-        </p>
-           
-    </div>
-  </section>
+  <div class="bg-dark-transparent-bg p-4 rounded">
+    <h1>About Pro Auto Repairs</h1>
+    <p class="lead mb-4">
+          Pro Auto Repairs is your one-stop destination for all your vehicle repair and maintenance needs.
+          
+      </p>
+          
+  </div>
+</section>
 
   <!-- About Section -->
   <section class="about-section container text-center py-5">
@@ -192,6 +192,8 @@
     <h1 class="mb-3 fw-bold">Ready to Get Started?</h1>
     <p class="mb-3">Contact us today or schedule your appointment or learn more about our services.</p>
     <a href="{{URL('/contact-us')}}" class="btn btn-grey btn-lg m-2">Contact Us</a>
-    <a href="{{URL('/book-appointment')}}" class="btn btn-grey btn-lg m-2">Book Appointment</a>
+    <a href="#" class="btn btn-grey btn-lg m-2" data-bs-toggle="modal" data-bs-target="#bookAppointmentModal">
+      Book an Appointment
+    </a>
   </section>
 @endsection
